@@ -6,10 +6,11 @@ def encode(init_code):
     for i in init_code:
         new_code.append(int(i) + 3)
 
-    code_str = "".join(map(str, new_code))
+    encoded = "".join(map(str, new_code))
 
-    print("Your password has been encoded and stored!")
-    print()
+    print("Your password has been encoded and stored!" + "\n")
+
+    return encoded
 
 if __name__ == "__main__":
     while True:
