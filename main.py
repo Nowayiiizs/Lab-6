@@ -1,5 +1,8 @@
 # Shenyu Zhou
 
+# remove when updated
+# import decode()
+
 def encode(init_code):
     new_code = []
 
@@ -29,6 +32,8 @@ if __name__ == "__main__":
             encode(init_code)
 
         elif option == 2:
+
+            # decode(encoded)
             pass
 
         elif option == 3:
