@@ -1,0 +1,3 @@
+# first github
+
+print("s")
