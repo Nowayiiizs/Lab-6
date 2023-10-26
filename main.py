@@ -16,7 +16,7 @@ if option == 1:
     for i in init_code:
         new_code.append(int(i) + 3)
 
-    code_str = str(new_code)
+    code_str = "".join(map(str, new_code))
 
     print("Your password has been encoded and stored!")
 
