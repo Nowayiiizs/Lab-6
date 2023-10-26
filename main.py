@@ -1,7 +1,6 @@
 # Shenyu Zhou
 
-def encode():
-    init_code = list(input("Please enter your password to encode: "))
+def encode(init_code):
     new_code = []
 
     for i in init_code:
@@ -24,7 +23,9 @@ if __name__ == "__main__":
 
         if option == 1:
 
-            encode()
+            init_code = list(input("Please enter your password to encode: "))
+
+            encode(init_code)
 
         elif option == 2:
             pass
