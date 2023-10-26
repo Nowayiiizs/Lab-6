@@ -29,11 +29,12 @@ if __name__ == "__main__":
 
             init_code = list(input("Please enter your password to encode: "))
 
-            encode(init_code)
+            encoded = encode(init_code)
 
         elif option == 2:
 
-            # decode(encoded)
+            # decode() to be added
+            # decode.decode(encoded)
             pass
 
         elif option == 3:
