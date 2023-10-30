@@ -1,7 +1,7 @@
 # Shenyu Zhou
 
-# remove when updated
-# import decode()
+from version_control_2 import decode_password
+
 
 def encode(init_code):
     new_code = []
@@ -33,8 +33,8 @@ if __name__ == "__main__":
 
         elif option == 2:
 
-            # decode() to be added
-            # decode.decode(encoded)
+            decode_password(init_code)
+
             pass
 
         elif option == 3:
